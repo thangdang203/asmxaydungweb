@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    margin: 0px 16px;
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 18px;
+}
+a:hover{
+    color: #F54748;
+}
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    margin-right: 15px;
+}
+.authenticate button{
+    width: 84px;
+    height: 42px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.pic img {
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
+}
+#signin{
+    color: #F54748;
+    border-color: #F54748;
+}
+#signup{
+    background-color: #F54748;
+    color: white;
+    border: none;
+}
+
+.sanphamchinh{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding-top: 129px;
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 40px;
+    color: #F54748;
+    padding-bottom: 30px;
+}
+.thongtinsp p{
+    font-size: 19px;
+    padding-bottom: 32px;
+}
+.timkiem input{
+    padding-left: 15px;
+    padding-right: 110px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border-color: #5D5D5D;
+}
+.timkiem button{
+    padding: 9px 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+h3{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin-bottom: 96px;
+}
+.anhsp img{
+    border-radius: 15px;
+}
+.tensp{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.giasp{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #F54748;
+}
+.sanpham button{
+    padding: 12px 164px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+.menucuoi ul li a{
+    font-size: 18px;
+    color: #5D5D5D;
+}

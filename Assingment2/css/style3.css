@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    margin: 0px 16px;
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 18px;
+}
+a:hover{
+    color: #F54748;
+}
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    margin-right: 15px;
+}
+.authenticate button{
+    width: 84px;
+    height: 42px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+#signin{
+    color: #F54748;
+    border-color: #F54748;
+}
+#signup{
+    background-color: #F54748;
+    color: white;
+    border: none;
+}
+.banner{
+    padding-top: 40px;
+}
+.hangdau{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    padding-bottom: 55px;
+}
+.anhsp img{
+    width: 100%;
+    border-radius: 15px;
+}
+.hangsau{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    padding-bottom: 55px;
+}
+.tensp{
+    padding-top: 18px;
+    padding-bottom: 23px;
+    font-size: 16px;
+}
+.giasp{
+    font-size: 20px;
+    color: #F54748;
+    padding-bottom: 32px;
+}
+.sanpham button{
+    padding: 9px 116px;
+    background-color: black;
+    color: white;
+    border-radius: px;
+}
+.danhmucsanpham{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.danhmuc h3{
+    padding-bottom: 24px;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+.menucuoi ul li a{
+    font-size: 18px;
+    color: #5D5D5D;
+}

@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+}
+li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0px 16px;
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 18px;
+}
+a:hover{
+    color: #F54748;
+}
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    margin-right: 15px;
+}
+.authenticate button{
+    width: 84px;
+    height: 42px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+#signin{
+    color: #F54748;
+    border-color: #F54748;
+}
+#signup{
+    background-color: #F54748;
+    color: white;
+    border: none;
+}
+
+.pic img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+.dis button{
+    padding-left: 24px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: none;
+    color: #F54748;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.check button{
+    padding-left: 35px;
+    padding-right: 54px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    position: absolute;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: #F54748;
+    color: white;
+    border-color: #F54748;
+    font-size: 16px;
+}
+.check input{
+    padding-left: 16px;
+    padding-right: 91px;
+    padding-top: 22px;
+    padding-bottom: 23px;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px;
+    border-color: #F54748;
+}
+h1{
+    padding: 32px 0px;
+}
+.tieude p{
+    padding-bottom: 33px;
+    color: #5D5D5D;
+    font-family: 'Inter';
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.anhmh img{
+    width: 100%;
+}
+.tieude{
+    margin: auto 0px;
+}
+.tieude h1{
+    font-size: 72px;
+}
+.noidung{
+    text-align: center;
+}
+.time{
+    display: flex;
+}
+.time img{
+    width: 18px;
+    height: 18px;
+    margin-right: 13px;
+}
+.time p{
+    font-size: 14px;
+    margin-right: 27px;
+}
+h2{
+    font-size: 48px;
+}
+.coment{
+    color: #5D5D5D;
+    font-size: 16px;
+    padding-top: 23px;
+    padding-bottom: 40px;
+}
+
+.anhsp img{
+    width: 100%;
+    border-radius: 15px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.item1 button{
+    padding-left: 25px;
+    padding-right: 24px;
+    border-radius: 5px;
+    border-color: #F54748;
+    color: #F54748;
+    background-color: white;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+.item2-1{
+    text-align: center;
+}
+.item2-1 h3{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.contact h2{
+    text-align: center;
+}
+.thongtin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+.name input{
+    width: 620px;
+    height: 60px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-color: #5D5D5D;
+    margin-bottom: 12px;
+}
+.name p{
+    padding: 12px 0px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+.email input{
+    width: 620px;
+    height: 60px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-color: #5D5D5D;
+    margin-bottom: 12px;
+}
+.email p{
+    padding: 12px 0px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+.Subject input{
+    width: 620px;
+    height: 60px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-color: #5D5D5D;
+    margin-bottom: 12px;
+}
+.Subject p{
+    padding: 12px 0px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+.ENquiry select{
+    width: 620px;
+    height: 60px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-color: #5D5D5D;
+    margin-bottom: 12px;
+}
+.ENquiry p{
+    padding: 12px 0px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+.MEssages textarea{
+    padding: 20px 20px;
+    border-radius: 10px;
+    border-color: #5D5D5D;
+    margin-bottom: 12px;
+}
+.MEssages p{
+    padding: 12px 0px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+.sanpham{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.sanpham-item{
+    margin-bottom: 45px;
+}
+.noidungsp  {
+    padding: 20px 0px;
+}
+.noidungsp b{
+    text-decoration: none;
+    font-size: 16px;
+    color: #F54748;
+}
+.noidungsp b a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #F54748;
+}
+.noidungsp b a:hover{
+    color: aqua;
+}
+.contact h2{
+    padding-top: 96px;
+    padding-bottom: 64px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 116px;
+}
+.button button{
+    padding: 20px 63px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+.menucuoi ul li a{
+    font-size: 18px;
+    color: #5D5D5D;
+}

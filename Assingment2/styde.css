@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 114px 1fr 0.3fr;
+    grid-column-gap: 5px;
+}
+
+
+.header h2 {
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+
+.search {
+    width: 300px;
+    border: 1px solid gray;
+    background-color: #0ea2bd;
+    border-radius: 5px;
+    margin-top: 23px;
+    height: 27px;
+}
+
+input {
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+.search button {
+    width: 60px;
+    margin-left: 12px;
+    background-color: #0ea2bd;
+    color: white;
+    border: none;
+}
+.search button:hover{
+    background-color: red;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Bahnschrift;
+    color: #878d93;
+}
+
+.menu {
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icon img {
+    width: 555px;
+    margin-top: 62px;
+    margin-bottom: 71px;
+}
+
+.conten{
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 200px;
+}
+
+.lego span {
+    font-size: 48px;
+    font-family: Bahnschrift;
+}
+.lego p{
+    padding-top: 34px ;
+    padding-bottom: 34px ;
+}
+.select{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
+    padding: 0px 350px;
+}
+
+.b1 button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0ea2bd;
+    color: white;
+    display: inline-block;
+    
+}
+.b1 button:hover{
+    background-color: #878d93;
+}
+.b2 button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 8px 20px;
+}
+.b2 button:hover{
+    background-color: #878d93;
+}
+.lego h2{
+    margin-top: 70px;
+}
+.main_conten1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding-bottom: 80px;
+}
+
+.main_conten2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding-bottom: 95px;
+}
+.conten2 p{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-family: Bahnschrift;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+}
+.main_conten1 img{
+    width: 100%;
+    margin: 0 auto;
+}
+.main_conten2 img{
+    width: 100%;
+    margin: 0 auto;
+}
+.foodter1{
+    background-color: #485664;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.8fr 2fr;
+    column-gap: 75px;
+    padding-left: 200px;
+    padding-right: 130px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.foodter-item3 button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0ea2bd;
+    color: white;
+    position: absolute;
+}
+.foodter-item3 button:hover{
+    background-color: #878d93;
+}
+.foodter-item3 input{
+    padding: 9px;
+    height: 30px;
+    width: 250px;
+}
+.foodter-item1 p {
+    padding-top: 10px ;
+
+}
+.foodter-item2 p {
+    padding-top: 10px ;
+
+}
+.foodter-item3 p {
+    padding-bottom: 15px ;
+    padding-top: 15px;
+
+}
+.foodter1 p {
+    color: white;
+    font-size: 13px;
+    font-family: Bahnschrift;
+}
+.foodter-item h3{
+    color: white;
+    font-size: 28px;
+    font-family: Bahnschrift;
+}
+#h4{
+    position: relative;/* //định dạng vị trí */
+    right: 15px;
+}
+.foodter1{
+    color: white;
+    font-size: 16px;
+    font-family: Bahnschrift;
+}
+
+.end{
+    background-color: #3a4753;
+    display: grid;
+    grid-template-columns: 0.8fr 0.5fr;
+    column-gap: 600px;
+    padding: 30px 200px;
+}
+.i1 span{
+    margin-left: 15px;
+    margin-right: 10px
+}
+.i2{
+    margin-right:50px;
+
+}
+.conten button{
+    box-shadow: 1px 5px 10px grey;
+    border: none;
+}
+.menu ul li a:hover{
+    color: aqua;
+}
